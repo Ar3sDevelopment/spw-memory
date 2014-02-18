@@ -1,6 +1,5 @@
 exports.data = function(cb) {
 	var util = require('util');
-	var exec = require('child_process').exec;
 	var res = {};
 	var fs = require('fs');
 
@@ -59,6 +58,6 @@ exports.manage_post = function(post, cb) {
 	cb(0);
 };
 
-exports.columns = 6;
+exports.columns = 4;
 exports.title = "RAM Info";
 exports.updatetime = 1000;
