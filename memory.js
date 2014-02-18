@@ -58,3 +58,7 @@ exports.data = function(cb) {
 exports.manage_post = function(post, cb) {
 	cb(0);
 };
+
+exports.columns = 6;
+exports.title = "RAM Info";
+exports.updatetime = 1000;
