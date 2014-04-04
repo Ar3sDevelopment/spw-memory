@@ -101,7 +101,7 @@ script(type="text/javascript").
 	}
 	function timeoutRAMFunc()
 	{
-		$.startUpdatingWidgetJson(socket, #{user_widget.id}, '#{sid}', callbackRAMFunc, null);
+		$.startUpdatingWidgetJson(socket, #{user_widget.id}, '#{username}', callbackRAMFunc, null);
 	}
 	$(document).ready(function () {
 		setTimeout(timeoutRAMFunc, #{user_widget.widget.updatetime});
